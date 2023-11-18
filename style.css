@@ -1,16 +1,21 @@
+html,
 body {
     margin: 0px;
+    height: 100%;
+    width: 100%;
+    min-height: 1200px;
 }
 
 /* top section  */
 .top {
     background-color: rgb(148, 151, 151);
-    height: 300px;
+    height: 22.5%;
     width: 100%;
 }
 
 .container {
     width: 70%;
+    height: 25%;
     position: absolute;
     left: 15%;
     display: flex;
@@ -21,7 +26,7 @@ body {
     display:flex;
     justify-content: space-between;
     align-items: flex-end;
-    height: 205px;
+    height: 90%;
 }
 
 .intro img,
@@ -32,7 +37,7 @@ body {
 
 .start h1 {
     margin: 0px;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 img {
@@ -46,6 +51,7 @@ img {
 .header {
     display: flex;
     justify-content: space-between;
+    height: 10%;
 }
 
 .links {
@@ -57,7 +63,7 @@ img {
 
 .topmiddle {
     background-color: chartreuse;
-    height: 300px;
+    height: 22.5%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -78,8 +84,32 @@ img {
 }
 
 .container2 img {
-    width: 100%;
+    width: 70%;
     border-radius: 10px;
     border-color: black;
     border: 2px solid;
+}
+
+/* middle section bottom */
+
+.botmiddle {
+    background-color: chocolate;
+    height: 22.5%;
+    width: 100%;
+}
+
+/* bottom section */
+
+.bottom {
+    background-color: wheat;
+    height: 22.5%;
+    width: 100%;
+}
+
+/* footer section */
+
+.footer {
+    background-color: teal;
+    height: 10%;
+    width: 100%;
 }
