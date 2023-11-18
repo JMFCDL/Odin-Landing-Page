@@ -96,6 +96,18 @@ img {
     background-color: chocolate;
     height: 22.5%;
     width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.message {
+    width: 60%;
+}
+
+.credit-quote {
+    text-align: end;
 }
 
 /* bottom section */
@@ -104,12 +116,40 @@ img {
     background-color: wheat;
     height: 22.5%;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.banner {
+    background-color: aqua;
+    width: 65%;
+    height: 50%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inside {
+    width: 80%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inside button {
+    width: 50;
+    height: 50%;
+    align-self: center;
+}
 /* footer section */
 
 .footer {
     background-color: teal;
     height: 10%;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
